@@ -174,31 +174,17 @@
       "description":"Sekiro : Shadows Die Twice est/'une jeu d'action et d'aventure intense à la troisième personne qui se déroule dans le décor sanglant du Japon du XIVe siècle."
     },
     {
-      "id":13,
-      "plateform": "PS4",
-      "title":"Sekiro Shadows die twice",
+      "id":14,
+      "plateform": "PC",
+      "title":"souris razer cortex",
       "price": "50$",
       "picture":{
-        "First":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225079/Pictures%20Masterpieces%20project/Pictures/s5v427s4ao0j0miptx1y.jpg        ",
-        "second":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225076/Pictures%20Masterpieces%20project/Pictures/drkypkmvh0zeom4w8znz.webp",
-        "Third":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225065/Pictures%20Masterpieces%20project/Pictures/urakb5fn1ekbjq9kxcta.jpg",
-        "fore":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225089/Pictures%20Masterpieces%20project/Pictures/stn8prvjm8yv3mwsatpl.png"
+        "First":"https://res.cloudinary.com/dp9skoyde/image/upload/v1715302586/Pictures%20Masterpieces%20project/Pictures/ueezzu7xgjv7yuvtd5m9.jpg",
+        "second":"",
+        "Third":"",
+        "fore":""
       },
-      "description":"Sekiro : Shadows Die Twice est/'une jeu d'action et d'aventure intense à la troisième personne qui se déroule dans le décor sanglant du Japon du XIVe siècle."
-    }
-    ,
-    {
-      "id":13,
-      "plateform": "PS4",
-      "title":"Sekiro Shadows die twice",
-      "price": "50$",
-      "picture":{
-        "First":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225079/Pictures%20Masterpieces%20project/Pictures/s5v427s4ao0j0miptx1y.jpg        ",
-        "second":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225076/Pictures%20Masterpieces%20project/Pictures/drkypkmvh0zeom4w8znz.webp",
-        "Third":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225065/Pictures%20Masterpieces%20project/Pictures/urakb5fn1ekbjq9kxcta.jpg",
-        "fore":"https://res.cloudinary.com/dp9skoyde/image/upload/v1714225089/Pictures%20Masterpieces%20project/Pictures/stn8prvjm8yv3mwsatpl.png"
-      },
-      "description":"Sekiro : Shadows Die Twice est/'une jeu d'action et d'aventure intense à la troisième personne qui se déroule dans le décor sanglant du Japon du XIVe siècle."
+      "description":""
     }
     
     

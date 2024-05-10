@@ -16,8 +16,8 @@ return(
 {/*nav-sidebar*/}
 <nav className="flex flex-col gap-7 sticky top-24 text-xl">
         <NavLink to={"/"}><ol className="flex items-center gap-5 hover:bg-[#242465] p-2 rounded-xl"><span><FaHome/></span>Home</ol></NavLink> 
-        <ol className="flex items-center gap-5 hover:bg-[#242465] p-2 rounded-xl "><span><BiSolidGame/></span>Game</ol>
-        <ol className="flex items-center gap-5 hover:bg-[#242465] p-2 rounded-xl"><span><IoGameController/></span>Accessory</ol>
+        <NavLink to={"/Games"}><ol className="flex items-center gap-5 hover:bg-[#242465] p-2 rounded-xl "><span><BiSolidGame/></span>Game</ol></NavLink>
+        <NavLink to={"/Accessory"}><ol className="flex items-center gap-5 hover:bg-[#242465] p-2 rounded-xl"><span><IoGameController/></span>Accessory</ol></NavLink>
 </nav>
 {/*Login-User*/}
 <div  className="flex flex-col gap-1">

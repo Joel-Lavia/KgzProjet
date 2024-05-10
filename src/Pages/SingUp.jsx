@@ -13,7 +13,7 @@ const onSubmit = (data) => console.log(data);
 return(
 <section className="fixed inset-0 flex items-center justify-center  z-[1] backdrop-blur">
 
-<form onSubmit={handleSubmit(onSubmit)} className="bg-[#010135] fixed z-[1] left-0 top-32 right-0 bottom-[18em] flex flex-col gap-5 justify-center items-center m-auto w-[25%] rounded-xl" >
+<form onSubmit={handleSubmit(onSubmit)} className="bg-[#010135] fixed z-[1] lg:left-0 lg:top-32 lg:right-0 lg:bottom-[18em] lg:flex lg:flex-col gap-5 lg:justify-center lg:place-items-center  lg:m-auto lg:w-[25%] rounded-xl smartphone:m-au smartphone:w-[80%] smartphone:p-2 smartphone:top-[3em] smartphone:bottom-[9em] smartphone:justify-center smartphone:place-items-center smartphone:flex smartphone:flex-col smartphone:right-[1.6em] md:right-[4em]" >
 
 <div className="flex items-center gap-5">
 <img src= {logo} alt="logo KGZ" className="max-w-14 rounded-full" />
@@ -26,22 +26,22 @@ return(
 </div>
 
 <p>
-<input {...register("Email",{required:true})} placeholder="Email" className="bg-[#1C1C78] p-3  rounded-xl focus:outline-none w-[25em]" />
+<input {...register("Email",{required:true})} placeholder="Email" className="bg-[#1C1C78] p-3  rounded-xl focus:outline-none lg:w-[25em] smartphone:w-full md:w-[25em]" />
 {errors.Email && <p className="text-red-600">Email required</p>}
 </p>
 
 <p>
-<input {...register("Username",{required:true})} placeholder="username" className="bg-[#1C1C78] p-3  rounded-xl focus:outline-none w-[25em]" />
+<input {...register("Username",{required:true})} placeholder="username" className="bg-[#1C1C78] p-3  rounded-xl focus:outline-none lg:w-[25em] smartphone:w-full md:w-[25em]" />
 {errors.Username && <p className="text-red-600">Username required</p>}
 </p>
 
 <p>
-<input {...register("Password",{required:true})} placeholder="Password" className="bg-[#1C1C78] p-3  rounded-xl focus:outline-none w-[25em]" />
+<input {...register("Password",{required:true})} placeholder="Password" className="bg-[#1C1C78] p-3  rounded-xl focus:outline-none lg:w-[25em] smartphone:w-full md:w-[25em]" />
 {errors.Password && <p className="text-red-600">Password required</p>}
 </p>
 
 
-<button type="submit" className="bg-[#0F7013] p-3  rounded-xl focus:outline-none w-[25em]">Sing up now</button>  
+<button type="submit" className="bg-[#0F7013] p-3  lg:w-[25em] rounded-xl smartphone:w-full md:w-[25em]">Sing up now</button>  
 
 </form>    
 </section>
